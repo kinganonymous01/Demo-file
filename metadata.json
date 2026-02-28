@@ -1,0 +1,5 @@
+{
+  "name": "SimpleBox",
+  "description": "A simple Dropbox clone to upload, list, and download files.",
+  "requestFramePermissions": []
+}
