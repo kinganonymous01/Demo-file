@@ -158,14 +158,15 @@ export default function App() {
                       {filename}
                     </span>
                   </div>
-                  <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="flex items-center gap-3">
                     <a
                       href={`/api/download/${encodeURIComponent(filename)}`}
                       download={filename}
-                      className="p-2 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
+                      className="flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-blue-700 bg-blue-100 hover:bg-blue-200 rounded-lg transition-colors"
                       title="Download"
                     >
-                      <Download className="w-5 h-5" />
+                      <Download className="w-4 h-4" />
+                      Download
                     </a>
                     <button
                       onClick={() => handleDelete(filename)}
